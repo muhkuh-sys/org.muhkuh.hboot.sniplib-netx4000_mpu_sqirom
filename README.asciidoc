@@ -15,5 +15,5 @@ This chapter describes the current infrastructure of the project.
 
 The flasher source code is hosted on GitHub: https://github.com/muhkuh-sys/org.muhkuh.hboot.sniplib-netx4000_mpu_sqirom
 
-Issues are collected here: https://github.com/muhkuh-sys/org.muhkuh.hboot.sniplib-netx4000_mpu_sqirom
+Issues are collected here: https://github.com/muhkuh-sys/org.muhkuh.hboot.sniplib-netx4000_mpu_sqirom/issues
 
