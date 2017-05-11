@@ -1,0 +1,19 @@
+HBoot Snippet netx4000_mpu_sqirom
+========
+
+== About
+
+This HBoot snippet can be used to enable code execution from the SQIROM area on the netX 4000 CR7 CPU.
+
+The MPU configuration installed by the rom code does allow data access, but not code execution from the SQIROM area.
+The reason is that the memory type is set to 'device', which does not allow instruction fetches.
+This snippet installs the same MPU configuration, except that the SQIROM area is defined as normal memory.
+
+== Infrastructure
+
+This chapter describes the current infrastructure of the project.
+
+The flasher source code is hosted on GitHub: https://github.com/muhkuh-sys/org.muhkuh.hboot.sniplib-netx4000_mpu_sqirom
+
+Issues are collected here: https://github.com/muhkuh-sys/org.muhkuh.hboot.sniplib-netx4000_mpu_sqirom
+
