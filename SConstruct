@@ -17,7 +17,8 @@ env_cortexR7.CreateCompilerEnv('NETX4000_RELAXED', ['arch=armv7', 'thumb'], ['ar
 
 
 # Build the platform libraries.
-SConscript('platform/SConscript')
+# We don't need to build them, we just want the defines.
+#SConscript('platform/SConscript')
 
 
 
