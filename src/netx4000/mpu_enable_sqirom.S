@@ -53,7 +53,7 @@ start:
 	MACRO_MPU_REGION  3, 1, HOSTADDR(CR7_rom), "0001ffff", MPU_MT_Normal_Buffered_NonShareable, MPU_AP_RO_RO  
 	
 	// region  4: SQIROM0 and SQIROM1
-	MACRO_MPU_REGION  4, 1, HOSTADDR(NX2RAP_SQIROM0), "07ffffff", MPU_MT_Normal_Buffered_Shareable,          MPU_AP_RO_RO 
+	MACRO_MPU_REGION  4, 1, HOSTADDR(NX2RAP_SQIROM0), "07ffffff", MPU_MT_Normal_Buffered_NonShareable, MPU_AP_RO_RO 
  
 	// region  5: HIF SDRAM and EXT SDRAM
 	MACRO_MPU_REGION  5, 1, HOSTADDR(hif_sdram), "1fffffff", MPU_MT_Normal_Buffered_NonShareable, MPU_AP_RW_RW
