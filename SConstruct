@@ -60,7 +60,7 @@ global PROJECT_VERSION
 aArtifactGroupReverse = ['org', 'muhkuh', 'hboot', 'sniplib']
 atSnippet = {
     'group': '.'.join(aArtifactGroupReverse),
-    'artifact': 'netx4000_mpu_sqirom',
+    'artifact': 'mpu_sqirom_netx4000',
     'version': PROJECT_VERSION,
     'vcs_id': env_netx4000_cr7.Version_GetVcsIdLong(),
     'vcs_url': env_netx4000_cr7.Version_GetVcsUrl(),
